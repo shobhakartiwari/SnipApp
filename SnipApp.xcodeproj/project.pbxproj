@@ -15,6 +15,7 @@
 		C0A0210127CE651A00522BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A0210027CE651A00522BE8 /* Assets.xcassets */; };
 		C0A0210427CE651A00522BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A0210227CE651A00522BE8 /* LaunchScreen.storyboard */; };
 		C0A0210F27CE651B00522BE8 /* SnipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0210E27CE651B00522BE8 /* SnipAppTests.swift */; };
+		C0A0211A27CE679F00522BE8 /* readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0211927CE679F00522BE8 /* readme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C0A0210A27CE651B00522BE8 /* SnipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A0210E27CE651B00522BE8 /* SnipAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnipAppTests.swift; sourceTree = "<group>"; };
 		C0A0211027CE651B00522BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A0211927CE679F00522BE8 /* readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
