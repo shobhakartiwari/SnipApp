@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Or Register View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="LoginOrRegisterViewController" customModule="SnipApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snip cutout.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="143-ca-5lC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="518"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubU-r1-Zzh">
+                                <rect key="frame" x="168" y="723" width="78" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                                <connections>
+                                    <action selector="clickRegister:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="e6q-by-M6M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuJ-OU-l5I">
+                                <rect key="frame" x="177" y="642" width="60" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                <connections>
+                                    <action selector="clickLogin:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ved-pW-bD9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="143-ca-5lC" secondAttribute="bottom" constant="300" id="2rd-b3-duT"/>
+                            <constraint firstItem="143-ca-5lC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="UMq-fE-0HN"/>
+                            <constraint firstItem="143-ca-5lC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="WnU-Pa-Omz"/>
+                            <constraint firstItem="ubU-r1-Zzh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="arv-KG-R5H"/>
+                            <constraint firstItem="nuJ-OU-l5I" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="eRv-YO-XUr"/>
+                            <constraint firstItem="nuJ-OU-l5I" firstAttribute="top" secondItem="143-ca-5lC" secondAttribute="bottom" constant="80" id="okZ-3n-9XA"/>
+                            <constraint firstItem="ubU-r1-Zzh" firstAttribute="top" secondItem="nuJ-OU-l5I" secondAttribute="bottom" constant="50" id="v8C-ao-TcC"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="143-ca-5lC" secondAttribute="trailing" id="xWh-kW-Qtb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="nuJ-OU-l5I" id="SBH-aW-vG6"/>
+                        <outlet property="registerButton" destination="ubU-r1-Zzh" id="bjw-bC-gvw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112" y="62"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="snip cutout.tiff" width="986" height="820"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
