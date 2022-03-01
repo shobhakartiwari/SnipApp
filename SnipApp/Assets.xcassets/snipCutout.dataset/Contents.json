@@ -1,0 +1,13 @@
+{
+  "data" : [
+    {
+      "filename" : "snipCutout.tiff",
+      "idiom" : "universal",
+      "universal-type-identifier" : "public.tiff"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
