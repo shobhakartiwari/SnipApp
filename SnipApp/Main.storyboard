@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="112" y="62"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="XwE-BV-T20">
             <objects>
-                <viewController id="PvS-E9-dBh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="PvS-E9-dBh" customClass="DetailViewController" customModule="SnipApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xwO-wj-zzM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +84,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                                <connections>
+                                    <action selector="loginBtnClicked:" destination="PvS-E9-dBh" eventType="touchUpInside" id="Qap-E6-uFZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGm-o7-RN0">
                                 <rect key="frame" x="133" y="179" width="149" height="33"/>
@@ -109,6 +112,10 @@
                             <constraint firstItem="Xgm-HY-FBx" firstAttribute="leading" secondItem="X2y-Vv-kA1" secondAttribute="leading" constant="20" id="yh5-Kp-ANG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTF" destination="Xgm-HY-FBx" id="7hd-wy-LwS"/>
+                        <outlet property="usernameTF" destination="POG-4v-Uhv" id="Wus-Nh-6Oc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rjk-bl-Ife" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
