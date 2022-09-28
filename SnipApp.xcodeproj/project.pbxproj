@@ -10,12 +10,12 @@
 		5F828B6B27CE6C700032DAC7 /* snip cutout.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5F828B6A27CE6C700032DAC7 /* snip cutout.tiff */; };
 		5F828B6D27CE6F8E0032DAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F828B6C27CE6F8E0032DAC7 /* Main.storyboard */; };
 		5F828B7127CE70FE0032DAC7 /* LoginOrRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F828B7027CE70FE0032DAC7 /* LoginOrRegisterViewController.swift */; };
+		98968BDB28E4BBF600086967 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98968BDA28E4BBF600086967 /* DetailViewModel.swift */; };
 		C0A020F827CE651600522BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A020F727CE651600522BE8 /* AppDelegate.swift */; };
 		C0A020FA27CE651600522BE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A020F927CE651600522BE8 /* SceneDelegate.swift */; };
 		C0A0210127CE651A00522BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A0210027CE651A00522BE8 /* Assets.xcassets */; };
 		C0A0210427CE651A00522BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A0210227CE651A00522BE8 /* LaunchScreen.storyboard */; };
 		C0A0210F27CE651B00522BE8 /* SnipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0210E27CE651B00522BE8 /* SnipAppTests.swift */; };
-		C0A0211A27CE679F00522BE8 /* readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0211927CE679F00522BE8 /* readme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,7 @@
 		5F828B6A27CE6C700032DAC7 /* snip cutout.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snip cutout.tiff"; sourceTree = "<group>"; };
 		5F828B6C27CE6F8E0032DAC7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5F828B7027CE70FE0032DAC7 /* LoginOrRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrRegisterViewController.swift; sourceTree = "<group>"; };
+		98968BDA28E4BBF600086967 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		C0A020F427CE651600522BE8 /* SnipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A020F727CE651600522BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A020F927CE651600522BE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		C0A0210A27CE651B00522BE8 /* SnipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A0210E27CE651B00522BE8 /* SnipAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnipAppTests.swift; sourceTree = "<group>"; };
 		C0A0211027CE651B00522BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0A0211927CE679F00522BE8 /* readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,7 @@
 				5F828B6A27CE6C700032DAC7 /* snip cutout.tiff */,
 				C0A0210527CE651A00522BE8 /* Info.plist */,
 				5F828B7027CE70FE0032DAC7 /* LoginOrRegisterViewController.swift */,
+				98968BDA28E4BBF600086967 /* DetailViewModel.swift */,
 			);
 			path = SnipApp;
 			sourceTree = "<group>";
@@ -209,6 +210,7 @@
 				5F828B7127CE70FE0032DAC7 /* LoginOrRegisterViewController.swift in Sources */,
 				C0A020F827CE651600522BE8 /* AppDelegate.swift in Sources */,
 				C0A020FA27CE651600522BE8 /* SceneDelegate.swift in Sources */,
+				98968BDB28E4BBF600086967 /* DetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
